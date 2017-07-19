@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.license      = { :type => 'MIT License', :file => 'LICENSE' } # 协议
   s.homepage     = "https://github.com/TBXark/TKRubberIndicator"
   s.author       = { "TBXark" => "tbxark@outlook.com" }
-  s.source       = { :git => "https://github.com/TBXark/TKRubberIndicator.git", :tag => s.version }
+  s.source       = { :git => "https://github.com/olafLi/TKRubberIndicator.git", :tag => s.version }
   s.platform     = :ios, '8.0'
   s.source_files = 'Classes/TKRubberPageControl.swift'
   s.requires_arc = true

@@ -310,8 +310,8 @@ private class TKBubbleCell: CAShapeLayer, CAAnimationDelegate {
         let toLeft = direction.toBool()
         let movePath = UIBezierPath()
         var center = CGPoint.zero
-        let startAngle = toLeft ? 0 : CGFloat(M_PI)
-        let endAngle   = toLeft ? CGFloat(M_PI) : 0
+        let startAngle = toLeft ? 0 : CGFloat(CGFloat.pi)
+        let endAngle   = toLeft ? CGFloat(CGFloat.pi) : 0
         center.x += radius * (toLeft ? -1 : 1)
         lastDirection = direction
         
