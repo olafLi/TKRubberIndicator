@@ -7,6 +7,6 @@ Pod::Spec.new do |s|
   s.author       = { "TBXark" => "tbxark@outlook.com" }
   s.source       = { :git => "https://github.com/olafLi/TKRubberIndicator.git", :tag => s.version }
   s.platform     = :ios, '8.0'
-  s.source_files = 'Classes/TKRubberPageControl.swift'
+  s.source_files = 'TKRubberPageControl/TKRubberPageControl.swift'
   s.requires_arc = true
 end
